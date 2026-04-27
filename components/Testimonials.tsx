@@ -25,11 +25,11 @@ const Testimonials = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {testimonials.map((t) => (
             <div
               key={t.id}
-              className="bg-white rounded-2xl border border-gray-100 p-6 hover:shadow-lg transition"
+              className="w-full md:w-[30%] min-w-[280px] max-w-[400px] bg-white rounded-2xl border border-gray-100 p-6 hover:shadow-lg transition"
             >
               <div className="flex mb-4">
                 {Array.from({ length: t.rating }).map((_, i) => (

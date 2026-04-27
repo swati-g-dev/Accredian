@@ -18,11 +18,11 @@ export default function WhyAccredian() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {whyUs.map((item) => (
             <div
               key={item.title}
-              className="group border border-gray-100 rounded-2xl p-6 hover:border-blue-200 hover:shadow-lg transition-all duration-300 bg-white"
+              className="w-full md:w-[45%] lg:w-[30%] min-w-[280px] max-w-[380px] group border border-gray-100 rounded-2xl p-6 hover:border-blue-200 hover:shadow-lg transition-all duration-300 bg-white"
             >
               <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:bg-blue-100 transition">
                 {item.icon}
@@ -54,11 +54,11 @@ export default function WhyAccredian() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6">
           {programs.map((program) => (
             <div
               key={program.id}
-              className="bg-white rounded-2xl border border-gray-100 p-6 hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex flex-col"
+              className="w-full md:w-[45%] lg:w-[30%] min-w-[280px] max-w-[380px] bg-white rounded-2xl border border-gray-100 p-6 hover:shadow-xl hover:border-blue-200 transition-all duration-300 flex flex-col"
             >
               <div className="text-4xl mb-4">{program.icon}</div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">
@@ -115,9 +115,9 @@ export default function WhyAccredian() {
           {/* Connector line */}
           <div className="hidden md:block absolute top-10 left-1/2 -translate-x-1/2 w-[70%] h-0.5 bg-gradient-to-r from-blue-200 via-blue-400 to-blue-200" />
 
-          <div className="grid md:grid-cols-4 gap-8 relative">
+          <div className="flex flex-wrap justify-center gap-8 relative">
             {steps.map((step, i) => (
-              <div key={step.step} className="flex flex-col items-center text-center">
+              <div key={step.step} className="w-full md:w-[22%] min-w-[160px] max-w-[260px] flex flex-col items-center text-center">
                 <div className="w-20 h-20 rounded-full bg-blue-600 text-white flex items-center justify-center text-2xl font-bold mb-5 shadow-lg shadow-blue-200 relative z-10">
                   {step.step}
                 </div>

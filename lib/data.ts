@@ -1,3 +1,5 @@
+import { Lightbulb, Brain, Users, ChartNoAxesColumnIncreasing, Settings, Globe, Banknote   } from 'lucide-react';
+
 export const stats = [
   { value: "10K+", label: "Professionals trained for exceptional career success" },
   { value: "200+", label: "Sessions delivered with unmatched learning excellence" },
@@ -8,7 +10,44 @@ export const clients = [
   "ADP", "Bayer", "Reliance", "HCL", "IBM", "CRIF"
 ];
 
-
+export const expertise = [
+  {
+    id: 1,
+    title: "Product & Innovation Hub", 
+    icon:  Lightbulb,
+  },
+  {
+    id: 2,
+    title: "Gen-AI Mastery",
+    icon: Brain,
+  },
+  {
+    id: 3,
+    title: "Leadership Elevation",
+    icon: Users,
+  },
+  {
+    id: 4,
+    title: "Tech & Data Insights",
+    icon: ChartNoAxesColumnIncreasing,
+  },
+  {
+    id: 5,
+    title: "Operations Excellence",
+    icon: Settings,
+  },
+  {
+    id: 6,
+    title: "Digital Enterprise",
+    icon: Globe,
+  },
+  {
+    id: 7,
+    title: "Fintech Innovation Lab",
+    icon: Banknote,
+  }
+  
+];
 
 export const programs = [
   {

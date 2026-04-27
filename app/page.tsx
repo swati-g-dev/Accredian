@@ -7,6 +7,7 @@ import Working from "@/components/Working";
 import Edge from "@/components/Edge";
 import CAT from "@/components/CAT";
 import FAQs from "@/components/FAQs";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
