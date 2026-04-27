@@ -1,12 +1,10 @@
-import { stats } from "@/lib/data";
-
 export default function Hero() {
   return ( 
     <>
       {/* hero */}
       <section>
         <div className="w-full">
-          <div id="home" className="flex justify-center items-center my-4 mt-15 sm:mt-32 xl:px-12 sm:px-4 mb-10 md:mb-0">
+          <div id="#" className="flex justify-center items-center my-4 mt-15 sm:mt-32 xl:px-12 sm:px-4 mb-10 md:mb-0">
             <div className="rounded-lg md:rounded-3xl bg-blue-50 flex flex-col-reverse sm:flex-row items-center justify-center sm:justify-between gap-4 sm:gap-4 md:gap-8 lg:gap-12  shadow-card overflow-visible">
               <div className="sm:w-1/2 w-full sm:ml-7 flex flex-col  justify-between gap-4 sm:gap-4 md:gap-8 lg:gap-10 md:ps-2 lg:ps-8">
                 <h1 className="text-center sm:text-left cursor-context-menu text-2xl sm:text-4xl lg:text-6xl xxl:text-7xl 2xl:text-[5.2vw] 3xl:text-[5.0rem] font-bold max-w-full sm:max-w-[350px] lg:max-w-[700px] pt-2 capitalize px-8 sm:px-0 font-circular">Next-Gen 

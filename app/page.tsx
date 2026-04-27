@@ -2,20 +2,24 @@ import Hero from "@/components/Hero";
 import Companies from "@/components/Companies";
 import LeadForm from "@/components/LeadForm";
 import Stats from "@/components/Stats";
-import Programs from "@/components/Programs";
 import Testimonials from "@/components/Testimonials";
-import CTA from "@/components/CTA";
+import Working from "@/components/Working";
+import Edge from "@/components/Edge";
+import CAT from "@/components/CAT";
+import FAQs from "@/components/FAQs";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Hero />
       <Stats />
-      <Companies />
-      <Programs />
+      <Companies /> 
+      <Edge />
+      <CAT />
+      <Working />
+      <FAQs />
       <Testimonials />
-      <CTA />
       <LeadForm />
-    </>
+    </main>
   );
 }

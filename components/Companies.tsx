@@ -4,8 +4,7 @@ export default function Companies() {
   const doubled = [...clients, ...clients];
 
   return (
-    <>
-    <section id="companies" className="py-16 text-center">
+    <section id="clients" className="py-16 text-center">
 <div className="text-center mb-10 max-w-2xl mx-auto px-4">        <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 leading-tight">
         Our  Proven <span className="text-blue-600">Partnerships</span>
       </h2>
@@ -54,33 +53,5 @@ export default function Companies() {
           ))}
         </div>
       </section>
-
-      {/* accredian edge */}
-      <section>
-        <div className="text-center mb-10 max-w-2xl mx-auto">
-          <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 leading-tight">
-            The <span className="text-blue-600">Accredian Edge</span>
-          </h2>
-          <p className="text-sm sm:text-lg text-gray-700 mt-3">
-            Key Aspects of{" "}
-            <span className="text-blue-600">Our Strategic Training</span>
-          </p>
-        </div>
-
-        {/* different image for different screen width */}
-        <div className="flex justify-center">
-          <img
-            src="accredian-edge-desktop.svg" 
-            alt="Accredian Edge"
-            className="hidden md:block w-full max-w-4xl"
-          />
-          <img
-            src="accredian-edge-mobile.svg" 
-            alt="Accredian Edge"
-            className="block md:hidden w-full max-w-sm"
-          />
-        </div>  
-      </section>
-    </>
   );
 }
